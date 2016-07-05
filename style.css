@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing:border-box ;
+    -moz-box-sizing: border-box ;
+    box-sizing: border-box ;
+}
+
+
+
+body{
+    font:100%/1.5em Arial, Helvetica, sans-serif;
+    
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    
+}
+
+.container .cols{
+    float: left;
+    margin: 0 0 1em;
+    padding: 0 1em;
+    
+    text-align: center;
+}
+
+
+.container .cols.col-1  { width: 8.3333333333333333%;}
+.container .cols.col-2  { width: 16.6666666666666666%;}
+.container .cols.col-3  { width: 25%;}
+.container .cols.col-4  { width: 33.3333333333333332%;}
+.container .cols.col-5  { width: 41.6666666666666665%;}
+.container .cols.col-6  { width: 50%;}
+.container .cols.col-7  { width: 58.3333333333333331%;}
+.container .cols.col-8  { width: 66.6666666666666664%;}
+.container .cols.col-9  { width: 75%;}
+.container .cols.col-10 { width: 83.333333333333333%;}
+.container .cols.col-11 { width: 91.6666666666666663%;}
+.container .cols.col-12 { width: 100%;}
+
+.container:before,
+.container:after,
+.row:after,
+.row:before,
+.clear:before,
+.clear:after {
+    content: " ";
+    display: table;
+}
+
+.container:after,
+.row:after,
+.clear:after{
+    clear: both;
+}
+
+
+#header{
+    width: 100%;
+    height: 7em;
+    margin: 0 ;
+    padding: 0 ;
+    border: 0.2em solid ;
+    background-color: #4A291F;
+}    
+
+
+h1{
+    
+}
+
+#buttons{
+    width: 100%;
+    height: 3em;
+    margin: 0 ;
+    padding: 0 ;
+    border: 0.2em solid ;
+    background-color: #4A291F;
+}    
+
+#sidebarL{
+    width: 16.6666666666666666%;
+    height: 25em;
+    margin: 0 ;
+    padding: 0 ;
+    border: 0.2em solid ;
+}
+
+#content{
+    width: 66.6666666666666664%;
+    height: 25em;
+    margin: 0 ;
+    padding: 0 ;
+    border: 0.2em solid ;
+}
+
+#sidebarR{
+    width: 16.6666666666666666%;
+    height: 25em;
+    margin: 0 ;
+    padding: 0 ;
+    border: 0.2em solid ;
+}
+
+
+#footer{
+    margin: 0 0 5em;
+    padding: 0 1em;
+    bottom:-5em;
+    background: #fd4;
+    text-align: center;
+    border: 0.2em solid ; 
+    height: 5em;
+    background-color: #4A291F;
+}
+
