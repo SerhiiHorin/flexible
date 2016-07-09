@@ -11,7 +11,6 @@
 body{
     font:100%/1.5em Arial, Helvetica, sans-serif;
     
-    
 }
 
 .container{
@@ -19,7 +18,6 @@ body{
     height: 100%;
     margin: 0 auto;
   
-    
 }
 
 .container .cols{
@@ -62,56 +60,49 @@ body{
 
 #header{
     width: 100%;
-    height: 5em;
+    height: 233px;
     margin: 0 ;
     padding: 0 ;
-    border: 0.2em solid ;
+    border: 0 solid ;
     background-color: #4A291F;
 }    
-
-
 
 #buttons{
     width: 100%;
     height: 3em;
     margin: 0 ;
-    padding: 0 ;
-    border: 0.2em solid ;
-    background-color: #4A291F;
+    padding: 40px 0 0 0 ;
+    border: 0 solid ;
+    
 }    
 
 #sidebarL{
-    width: 16.6666666666666666%;
+    width: 0%;
     height: 30em;
     margin: 0 ;
     padding: 0 ;
-    border: 0.2em solid ;
+    border: 0 solid ;
 }
 
 #content{
-    width: 66.6666666666666664%;
-    height: 5em;
+    width:100%;
+    height: 100%;
     margin: 0 ;
     padding: 0 ;
-    border: 0.2em solid ;
+    border: 0 solid ;
 }
 
 #sidebarR{
-    width: 16.6666666666666666%;
+    width:0%;
     height: 5em;
     margin: 0 ;
     padding: 0 ;
-    border: 0.2em solid ;
+    border: 0 solid ;
 }
-
 
 html, body, .container {height:100%}
 .container {margin: 0 auto}
 #sidebarR {min-height: 100%}
-
-
-
-
 
 #footer{
     margin: 0 0;
@@ -120,7 +111,81 @@ html, body, .container {height:100%}
     position: relative;
     bottom: 0;
     text-align: center;
-    border: 0.2em solid ; 
-    background-color: #4A291F;
+    border: 0 solid ; 
+    background-color:#48220F;
 }
 
+
+#header .top-links { 
+float:right; 
+padding:97px 47px 0 0;
+}
+#header .top-links li { 
+float:left;
+}
+#header .top-links li a {
+background:url(images/divider.gif) no-repeat left 8px; 
+padding:0 15px 10px 12px;
+}
+#header .top-links li a.first {
+background:none;
+}
+
+#header {height:233px; 
+background:url(images/header-bg.jpg) no-repeat center top;
+}
+
+#header .logo { 
+float:left;
+padding:46px 0 0 150px;
+}
+
+html { min-width:990px;}
+body { background:url(images/top-tail.jpg) center top repeat-x #48220f; font-family:Tahoma, Geneva, sans-serif; font-size:100%; line-height:.875em; color:#70635b;}
+
+
+h1 { background:url(images/logo.png) no-repeat left top; padding:8px 0 10px 66px; font-family:Verdana, Geneva, sans-serif; font-size:40px; line-height:2em;}
+h1 a { display:block; text-decoration:none; color:#ffe7be; padding-bottom:6px;}
+
+#buttons  { text-align:center; font-family:Verdana, Geneva, sans-serif; font-size:1em; position:absolute; top:155px; width:1350px; margin: 0 auto;}
+#buttons  li { display:inline;}
+#buttons  li a { 
+color:#ffe7be; 
+text-decoration:none; 
+text-transform:uppercase; 
+border-left:1px solid #9a705b;
+padding:0 47px 0 50px; 
+}
+
+
+
+#buttons  li a:hover { color:#ffd26e;}
+#buttons  li a.current { color:#ffd26e;}
+#buttons  li a.first { border:none;}
+
+
+#content { background:url(images/content-bg.jpg) no-repeat center -1px #fff;
+        height: 624px;
+
+}
+
+
+/*#content dl dt { font-weight:bold; margin-bottom:4px;}
+#content dl dd { padding-bottom:14px;}
+
+#content .special { position:relative; margin-bottom:-20px;}
+#content .special.fright { float:right; margin-left:35px;}
+#content .special dt { font-family:Verdana, Geneva, sans-serif; font-size:1.5em; line-height:1.1em; color:#9f5827; text-transform:uppercase; margin-bottom:19px; font-weight:normal;}
+#content .special dd { background:url(images/img-wrapper1.png) no-repeat left top; width:108px; height:90px; position:relative; overflow:hidden; margin-bottom:20px; padding-bottom:0;}
+#content .special dd img { position:absolute; top:6px; left:6px;}
+#content .special dd span { position:absolute; bottom:3px; right:16px; font-weight:bold; font-size:.91em; color:#9f5827;}
+
+#content ul { padding-bottom:15px; margin:0;}
+#content ul li { font-weight:bold; padding-bottom:6px;}
+#content ul li ul { padding:8px 0 0 12px;}
+
+#content .items-list { padding-bottom:0;}
+#content .items-list li { width:100%; overflow:hidden; padding-bottom:20px; font-weight:normal;}
+#content .items-list li img { float:left; margin-right:20px;}
+#content .items-list li p { margin-bottom:7px;}
+*/
