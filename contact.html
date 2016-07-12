@@ -26,12 +26,13 @@
                 <div class="row">
                     <div class="cols col-12" id="buttons">
                         <ul>
-                            <li><a href="home.html" class="first current">ГОЛОВНА</a></li>
+                            <li><a href="index.html" class="first current">ГОЛОВНА</a></li>
                             <li><a href="history.html">ІСТОРІЯ КАВИ</a></li>
                             <li><a href="interesting.html">ЦІКАВІ ФАКТИ</a></li>
                             <li><a href="gifts.html">ПОДАРУНКИ КАВОМАНУ</a></li>
                             <li><a href="contact.html">КОНТАКТИ</a></li>
-                       </ul>
+                            
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -39,8 +40,10 @@
         
         <div class="row">
             <div class="cols col-2" id="sidebarL"></div>
+            
         <div class="cols col-8" id="content">
-            <div class="box">
+         
+        <div class="box">
             	<div class="left-top-corner">
                	<div class="right-top-corner">
                   	<div class="border-top"></div>
@@ -49,15 +52,16 @@
                <div class="border-left">
                	<div class="border-right">
                   	<div class="inner">
-                     	<h3>Кава</h3>
-                        <dl>
-                        	<dt></dt>
-                           <dd>Кава — напій, що виготовляється зі смаженого насіння плодів — «бобів» кавового дерева. Кава найбільше цінується через виражену збадьорливу дію, завдяки вмісту алкалоїдів кофеїну та теоброміну. Кава культивується з давніх часів і займає важливе місце в кулінарних традиціях багатьох культур світу. За деякими оцінками, кавовий напій є другою за об'ємами споживання речовиною на Землі після води.</dd>
-                           <dt></dt>
-                           <dd>Основними торговими сортами кавових бобів є арабіка та робуста. Робуста, як рослина, є набагато витривалішою, проте напій з робусти сильно поступається арабіці в якості, а тому робуста використовується майже виключно у блендах. Менш розповсюдженою є ліберіка, що не має харчової цінності.</dd>
-                           <dt></dt>
-                           <dd>За допомогою змішування отримують каву з незвичним поєднанням властивостей для отримання збалансованого продукту, в якому посилені такі бажані якості, як приємний смак, аромат, насиченість і привабливий зовнішній вигляд.</dd>
-                        </dl>
+                    	<h2>Ваші запитання та пропозиції</h2>
+                         <form method="POST" id="contacts-form" action="https://formspree.io/mr.bladeee@gmail.com">
+                           <fieldset>
+                              <div class="field"><label>Ваше ім’я:</label><input type="text" name="name" value=""/></div>
+                              <div class="field"><label>Ваш E-mail:</label><input type="text" name="name" value=""/></div>
+                              <div class="field"><label>Повідомлення:</label><textarea name="message" cols="" rows=""></textarea></div>
+                              <p class="btn"><input type="submit" value="Відправити"></p>  
+                           </fieldset>
+                        </form>  
+                     	
                      </div>	
                   </div>
                </div>
@@ -71,7 +75,7 @@
             <div class="cols col-2" id="sidebarR"></div>                 
         </div>
             <div class="row" id="footer1">
-                <div class="cols col-12" id="footer"></div>
+                    <div class="cols col-12" id="footer"></div>
             </div>
     </div>
 </body>
